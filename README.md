@@ -12,7 +12,8 @@ Here are all the commands with pdollar:
 2. pdollar -r                    clears all the stored templates
 3. pdollar <eventstream>         prints the name of gestures as they are recognized from the event stream
 
-An example format would be:      pdollar pdollar -t gestureFiles/arrowhead.txt
+An example format would be:      pdollar -t gestureFiles/arrowhead.txt
+                        or:      pdollar eventfiles/arrowhead_eventfile.txt
 
 ## Notes
 Written in C-Sharp ");
